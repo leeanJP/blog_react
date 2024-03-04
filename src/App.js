@@ -58,6 +58,8 @@ function App() {
 
 function Modal(){
 
+
+
   return (
       <div className="modal">
         <h4>제목</h4>
