@@ -50,17 +50,33 @@ JSX에서 조건문 사용하기
 
 
 
+map 함수
+- array 자료의 갯수만큼 함수안의 코드를 실행해준다.
+- 함수의 파라미터는 array안의 자료, index
+- return문 작성 시 array에 담아준다.
 
 
+props로 부모 > 자식 state 전송하는 방법
+1. 자식컴포넌트 사용하는 곳에 가서
+- <자식컴포넌트 naming = {state이름}/>
+2. 자식컴포넌트 만드는 function로 가서
+props 라는 파라미터 등록 후
+props.naming
 
 
+props는 여러개 전송가능
+일반 변수나 함수도 전송 가능
+일반 문자도 가능
+
+자식 > 부모로는 전송 불가능
+자식 > 자식 전송 불가능
 
 
+class 문법으로 컴포넌트 만드는 법
 
-
-
-
-
+1. 클래스명 작성하고 React.Component를 상속
+2. constructor, super, render 함수 3개 만든다.
+3. return문 안에 축약할 html 코드 작성
 
 
 
